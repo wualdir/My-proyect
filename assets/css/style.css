@@ -54,6 +54,7 @@ html {
 		font-size: var(--normal-font-size);
 		margin: 0;
 		color: var(--primary-color);
+		text-align: justify;
 	}
 	ul {
 		list-style: none;
@@ -380,30 +381,62 @@ html {
 	}
 
 	
-	.home__layer--7 {
+	
+	.home__layer--1 {
+		top: 27%;
+		left: 55%;
+	}
+
+	.home__layer--2 {
+		top: 45%;
+		left: 53%;
+	}
+
+	.home__layer--3 {
 		top: 60%;
-		left: 50%;
+		left: 54%;
+	}
+
+	.home__layer--4 {
+		top: 25%;
+		left: 66%;
+	}
+
+	.home__layer--5 {
+		top: 45%;
+		left: 67%;
+	}
+
+	.home__layer--6 {
+		top: 65%;
+		left: 65%;
+	}
+
+	.home__layer--7 {
+		top: 28%;
+		left: 78%;
 	}
 
 	.home__layer--8 {
-		top: 30%;
-		left: 50%;
+		top: 45%;
+		left: 80%;
 	}
 
 	.home__layer--9 {
-		top: 45%;
-		left: 85%;
+		top: 65%;
+		left: 76%;
 	}
 
 	.home__layer--10 {
-		top: 60%;
+		top: 40%;
 		left: 85%;
 	}
 
 	.home__layer--11 {
-		top: 10%;
+		top: 55%;
 		left: 85%;
 	}
+
 
 	.home__container {
 		position: relative;
@@ -631,6 +664,24 @@ html {
 			}
 		}
 	}
+}
+
+.boton-enlace {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 0.9rem;
+	color: white;
+	background-color: #007bff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid #007bff;
+	transition: background-color 0.3s, border-color 0.3s;
+}
+
+.boton-enlace:hover {
+	background-color: #0056b3;
+	border-color: #0056b3;
 }
 
 @keyframes showing {
